@@ -1,3 +1,9 @@
+# Fork
+
+```
+docker build --build-arg HTTP_PROXY=http://10.10.171.184:7897 --build-arg HTTPS_PROXY=http://10.10.171.184:7897 -t registrator .
+```
+
 # Registrator
 
 Service registry bridge for Docker.
